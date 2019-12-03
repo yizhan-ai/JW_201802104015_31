@@ -19,5 +19,7 @@ dependencies {
     providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 
 
-
+}
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
 }
